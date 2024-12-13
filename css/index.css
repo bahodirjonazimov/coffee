@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+.site-header {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.site-header .container {
+  display: flex;
+  padding: 30px;
+}
+
+.container {
+}
+
+.header__logo {
+  padding-right: 600px;
+  padding-left: 40px;
+}
+
+.header__ul {
+  display: flex;
+}
+
+.header__li-1 {
+  padding-right: 33px;
+}
+
+.header__li-2 {
+  padding-right: 32px;
+}
+
+.header__li-3 {
+}
+
+.main-top {
+  background-image: url(../images/image-hero-coffeepress.jpg);
+  background-repeat: no-repeat;
+  margin-top: 44px;
+  border-radius: 12px;
+  padding: 117px;
+  h1 {
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+  p {
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 445px;
+    color: #fefcf7;
+    margin-top: 32px;
+  }
+}
+
+.main__cen {
+  margin-top: 136px;
+  margin-left: 50px;
+}
+
+.cen-img-1 {
+  width: 255px;
+  height: 193px;
+  top: 975px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cen-img-2 {
+  width: 255px;
+  height: 193px;
+  top: 975px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cen-img-3 {
+  width: 255px;
+  height: 193px;
+  top: 975px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cen-img-4 {
+  width: 255px;
+  height: 193px;
+  top: 975px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.main__img-bot {
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.list-1 {
+}
+
+.list-1__p {
+  font-family: "Barlow";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #333d4b;
+  padding-top: 71px;
+}
+
+.list-1__texts {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 255px;
+  padding: 30px;
+}
+
+.main__blog-3 {
+  height: 577px;
+  background-color: #2c343e;
+  .blog-3__text-1 {
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fefcf7;
+    padding-top: 100px;
+  }
+  .blog-3__text-2 {
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fefcf7;
+    padding-left: 320px;
+    padding-top: 32px;
+    height: 80px;
+    width: 740px;
+  }
+}
+
+.box__3 {
+  display: flex;
+  .blog-3__list-1 {
+    width: 350px;
+    height: 382px;
+    top: 1920px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #0e8784;
+    margin-right: 30px;
+    margin-top: -200px;
+    border-radius: 10px;
+    margin-left: 25px;
+  }
+  .blog-3__list-2 {
+    width: 350px;
+    height: 382px;
+    top: 1920px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #0e8784;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: -200px;
+  }
+  .blog-3__list-3 {
+    width: 350px;
+    height: 382px;
+    top: 1920px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #0e8784;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: -200px;
+  }
+  .box__img {
+    padding-top: 72px;
+    padding-left: 136px;
+  }
+  .box__p {
+    font-family: "Barlow";
+    padding-left: 47px;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fefcf7;
+    padding-top: 56px;
+    padding-left: 100px;
+  }
+  .box__text {
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 255px;
+    padding-left: 67px;
+    color: #fefcf7;
+    padding-top: 24px;
+  }
+}
+
+.how {
+  font-family: "Barlow";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 200px;
+}
+
+.works {
+  display: flex;
+  .works__text {
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 38px;
+    width: 200px;
+  }
+  .works__texts {
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 285px;
+    padding-top: 42px;
+  }
+  .works-list-1 {
+    width: 285px;
+    margin-right: 95px;
+    margin-top: 82px;
+  }
+  .works-list-2 {
+    width: 285px;
+    margin-right: 95px;
+    margin-top: 82px;
+  }
+  .works-list-3 {
+    width: 285px;
+    margin-top: 82px;
+  }
+}
+
+.bot {
+  padding-bottom: 200px;
+}
+
+.footer {
+  display: flex;
+  background-color: #2c343e;
+  align-items: center;
+  .footer-a-1 {
+    padding-right: 33px;
+    color: #83888f;
+  }
+  .footer-a-2 {
+    padding-right: 33px;
+    color: #83888f;
+  }
+  .footer-a-3 {
+    padding-right: 369px;
+    color: #83888f;
+  }
+  .foter-df {
+    display: flex;
+  }
+  .logo-2 {
+    margin-right: 102px;
+  }
+  .footer__icon-1 {
+    padding: 8px;
+  }
+  .footer__icon-2 {
+    padding: 8px;
+  }
+  .footer__icon-3 {
+    padding: 8px;
+  }
+}
+
+.footer {
+  height: 120px;
+}
+
+* .btn {
+  margin-top: 56px;
+  padding: 15px 31px 16px 31px;
+  border-radius: 6px;
+  border: 1px solid #0e8784;
+  background-color: #0e8784;
+  color: #ffffff;
+  font-family: "Fraunces";
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #66d2cf;
+  color: #ffffff;
+  border: 1px solid #66d2cf;
+}
